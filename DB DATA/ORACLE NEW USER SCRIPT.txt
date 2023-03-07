@@ -1,0 +1,15 @@
+alter session set "_ORACLE_SCRIPT"=true;
+CREATE USER arbaz_test IDENTIFIED BY mypassword;
+GRANT CONNECT TO arbaz_test;
+GRANT CREATE SESSION TO arbaz_test;
+GRANT CREATE TABLE TO arbaz_test;
+GRANT UNLIMITED TABLESPACE TO arbaz_test;
+GRANT ALL PRIVILEGES TO arbaz_test;
+
+/**/
+
+SYS
+test123
+
+LMS
+pass123

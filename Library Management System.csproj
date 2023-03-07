@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DFFB81AC-380F-42D6-A023-3DED14EB1C3A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Library_Management_System</RootNamespace>
+    <AssemblyName>Library Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>capture_G9r_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.3.2, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.3.2\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess">
+      <HintPath>..\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>..\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_Book_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Book_Admin.Designer.cs">
+      <DependentUpon>Add_Book_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Module.Designer.cs">
+      <DependentUpon>Admin_Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="contact_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contact_user.Designer.cs">
+      <DependentUpon>contact_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_book_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_book_admin.Designer.cs">
+      <DependentUpon>Delete_book_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delete_User_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete_User_admin.Designer.cs">
+      <DependentUpon>delete_User_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feedback_user.Designer.cs">
+      <DependentUpon>Feedback_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Issue_Book_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Issue_Book_user.Designer.cs">
+      <DependentUpon>Issue_Book_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Issue_report_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Issue_report_admin.Designer.cs">
+      <DependentUpon>Issue_report_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Issue_Report_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Issue_Report_user.Designer.cs">
+      <DependentUpon>Issue_Report_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Return_Book_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Return_Book_user.Designer.cs">
+      <DependentUpon>Return_Book_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search_Book_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search_Book_user.Designer.cs">
+      <DependentUpon>Search_Book_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings_admin.Designer.cs">
+      <DependentUpon>Settings_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGINUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGINUP.Designer.cs">
+      <DependentUpon>SGINUP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_book_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_book_admin.Designer.cs">
+      <DependentUpon>Update_book_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_user_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_user_admin.Designer.cs">
+      <DependentUpon>Update_user_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Module.Designer.cs">
+      <DependentUpon>User_Module.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Add_Book_Admin.resx">
+      <DependentUpon>Add_Book_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Module.resx">
+      <DependentUpon>Admin_Module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contact_user.resx">
+      <DependentUpon>contact_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_book_admin.resx">
+      <DependentUpon>Delete_book_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete_User_admin.resx">
+      <DependentUpon>delete_User_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Feedback_user.resx">
+      <DependentUpon>Feedback_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Issue_Book_user.resx">
+      <DependentUpon>Issue_Book_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Issue_report_admin.resx">
+      <DependentUpon>Issue_report_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Issue_Report_user.resx">
+      <DependentUpon>Issue_Report_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Return_Book_user.resx">
+      <DependentUpon>Return_Book_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search_Book_user.resx">
+      <DependentUpon>Search_Book_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings_admin.resx">
+      <DependentUpon>Settings_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGINUP.resx">
+      <DependentUpon>SGINUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_book_admin.resx">
+      <DependentUpon>Update_book_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_user_admin.resx">
+      <DependentUpon>Update_user_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Module.resx">
+      <DependentUpon>User_Module.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GIFs\dash2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="capture_G9r_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

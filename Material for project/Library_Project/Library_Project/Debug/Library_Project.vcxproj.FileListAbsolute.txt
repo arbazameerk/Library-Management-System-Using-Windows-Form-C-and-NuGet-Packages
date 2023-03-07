@@ -1,0 +1,20 @@
+C:\Users\MacBook Pro\source\repos\Library_Project\Library_Project\Debug\LibraryProject.availablebook.resources
+C:\Users\MacBook Pro\source\repos\Library_Project\Library_Project\Debug\LibraryProject.LoginPage.resources
+C:\Users\MacBook Pro\source\repos\Library_Project\Library_Project\Debug\LibraryProject.Signinpage.resources
+C:\Users\MacBook Pro\source\repos\Library_Project\Library_Project\Debug\LibraryProject.welcomeform.resources
+C:\Users\MacBook Pro\source\repos\Library_Project\Library_Project\Debug\Library_Project.vcxproj.GenerateResource.cache
+C:\Users\MacBook Pro\source\repos\Library_Project\Library_Project\Debug\LibraryProject.customerdata.resources
+C:\Users\MacBook Pro\source\repos\Library_Project\Library_Project\Debug\LibraryProject.adminform.resources
+C:\Users\MacBook Pro\source\repos\Library_Project\Library_Project\Debug\Library_Project.vcxproj.AssemblyReference.cache
+C:\Users\MacBook Pro\source\repos\Library_Project\Library_Project\Debug\LibraryProject.borrowbookform.resources
+C:\Users\MacBook Pro\source\repos\Library_Project\Library_Project\Debug\LibraryProject.Makeadminform.resources
+C:\Users\DELL\Desktop\Library_Project\Library_Project\Debug\Library_Project.vcxproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Library_Project\Library_Project\Debug\LibraryProject.adminform.resources
+C:\Users\DELL\Desktop\Library_Project\Library_Project\Debug\LibraryProject.availablebook.resources
+C:\Users\DELL\Desktop\Library_Project\Library_Project\Debug\LibraryProject.borrowbookform.resources
+C:\Users\DELL\Desktop\Library_Project\Library_Project\Debug\LibraryProject.customerdata.resources
+C:\Users\DELL\Desktop\Library_Project\Library_Project\Debug\LibraryProject.LoginPage.resources
+C:\Users\DELL\Desktop\Library_Project\Library_Project\Debug\LibraryProject.Makeadminform.resources
+C:\Users\DELL\Desktop\Library_Project\Library_Project\Debug\LibraryProject.Signinpage.resources
+C:\Users\DELL\Desktop\Library_Project\Library_Project\Debug\LibraryProject.welcomeform.resources
+C:\Users\DELL\Desktop\Library_Project\Library_Project\Debug\Library_Project.vcxproj.GenerateResource.cache

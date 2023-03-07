@@ -1,0 +1,42 @@
+﻿  adminform.cpp
+C:\Users\DELL\Desktop\Library_Project\Library_Project\adminform.h(494,11): warning C4101: 'wisbn': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\adminform.h(495,11): warning C4101: 'wprice': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\adminform.h(491,11): warning C4101: 'wauthor': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\adminform.h(490,11): warning C4101: 'wedition': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\adminform.h(492,11): warning C4101: 'wtitle': unreferenced local variable
+  availablebook.cpp
+C:\Users\DELL\Desktop\Library_Project\Library_Project\availablebook.h(484,10): warning C4101: 'wisbn': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\availablebook.h(485,10): warning C4101: 'wprice': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\availablebook.h(481,10): warning C4101: 'wauthor': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\availablebook.h(480,10): warning C4101: 'wedition': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\availablebook.h(482,10): warning C4101: 'wtitle': unreferenced local variable
+  borrowbookform.cpp
+  customerdata.cpp
+  LoginPage.cpp
+C:\Users\DELL\Desktop\Library_Project\Library_Project\availablebook.h(484,10): warning C4101: 'wisbn': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\availablebook.h(485,10): warning C4101: 'wprice': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\availablebook.h(481,10): warning C4101: 'wauthor': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\availablebook.h(480,10): warning C4101: 'wedition': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\availablebook.h(482,10): warning C4101: 'wtitle': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\adminform.h(494,11): warning C4101: 'wisbn': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\adminform.h(495,11): warning C4101: 'wprice': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\adminform.h(491,11): warning C4101: 'wauthor': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\adminform.h(490,11): warning C4101: 'wedition': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\adminform.h(492,11): warning C4101: 'wtitle': unreferenced local variable
+  Makeadminform.cpp
+  Signinpage.cpp
+  welcomeform.cpp
+C:\Users\DELL\Desktop\Library_Project\Library_Project\availablebook.h(484,10): warning C4101: 'wisbn': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\availablebook.h(485,10): warning C4101: 'wprice': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\availablebook.h(481,10): warning C4101: 'wauthor': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\availablebook.h(480,10): warning C4101: 'wedition': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\availablebook.h(482,10): warning C4101: 'wtitle': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\adminform.h(494,11): warning C4101: 'wisbn': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\adminform.h(495,11): warning C4101: 'wprice': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\adminform.h(491,11): warning C4101: 'wauthor': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\adminform.h(490,11): warning C4101: 'wedition': unreferenced local variable
+C:\Users\DELL\Desktop\Library_Project\Library_Project\adminform.h(492,11): warning C4101: 'wtitle': unreferenced local variable
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  adminform.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Library_Project.vcxproj -> C:\Users\DELL\Desktop\Library_Project\Debug\Library_Project.exe

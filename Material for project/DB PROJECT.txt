@@ -1,0 +1,5 @@
+*Primary key or foreign key might produce error and the program might crash
+*Support for ad hoc queries
+*ERD well supported
+*Supported cascade, update, and dynamic searching
+*API integration for better UI
